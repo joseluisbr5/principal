@@ -2,9 +2,10 @@
   "name": "projetosprincipais",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000p\u0000r\u0000i\u0000n\u0000c\u0000i\u0000p\u0000a\u0000l\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
